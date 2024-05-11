@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home.js">
+</head>
+<body>
+    <section class="contact-info">
+        <div class="address-container">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/88851559c5863efca762ca9d556dd9f8a0911d6d0fa236db0023773fd3f498b1?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Location icon" class="location-icon" />
+          <p class="address-text">Rezilla, 18 Grattan St, Brooklyn</p>
+        </div>
+        <div class="contact-details">
+          <div class="phone-container">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/99e1fca3d1bc453f187c73a49e4f10e6ddcf743ddb92efcdb8a7963926b15cad?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Phone icon" class="phone-icon" />
+            <p class="phone-number">+1 206-214-2298</p>
+          </div>
+          <div class="email-container">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8b0dfd6fd5c671ee418b34aaad0e70d95852b22c82a368e6d614b9c44fbced38?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Email icon" class="email-icon" />
+            <p class="email-address">support@rezilla.com</p>
+          </div>
+        </div>
+      </section>
+      <header class="navbar">
+        <nav class="nav-links">
+          <a href="#" class="nav-link nav-link-active">Home</a>
+          <a href="#" class="nav-link">About</a>
+          <a href="#" class="nav-link">Listings</a>
+          <a href="#" class="nav-link">Services</a>
+          <a href="#" class="nav-link">Blogs</a>
+        </nav>
+        
+        <div class="logo-container">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8da4e854-1bfc-4827-9dba-db9f0fc458e7?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Rezilla Logo" class="logo-img" loading="lazy" />
+          <span class="logo-text">Rezilla</span>
+        </div>
+      
+        <div class="user-actions">
+          <a href="#" class="login-link">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b0adc66c1a042528b21784b5b04407416ce3ad335c09ba517202abc701193c7b?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Login Icon" class="login-icon" loading="lazy" />
+            <span class="login-text">Login/Register</span>
+          </a>
+          <a href="#" class="add-listing-btn">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/431c9b8fc7d09b0a18586f02ae935e3dd0dcbeb4524a05c743098e98d3544978?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Add Listing Icon" class="add-icon" loading="lazy" />
+            <span class="add-text">Add Listing</span>
+          </a>
+        </div>
+      </header>
+      <div class="find-home-container">
+        <div class="find-home-wrapper">
+          <div class="find-home-content">
+            <div class="find-home-text-wrapper">
+              <div class="find-home-text-content">
+                <h1 class="find-home-heading">Find a perfect home you love..!</h1>
+                <p class="find-home-description">
+                  Etiam eget elementum elit. Aenean dignissim dapibus vestibulum. Integer a dolor eu sapien sodales vulputate ac in purus.
+                </p>
+              </div>
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/68251e2b39eec07b1fbe4ff44a21e5e2f1326ac50449228e7573cd528311213a?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Find a perfect home you love" class="find-home-image" loading="lazy" />
+            </div>
+          </div>
+          <div class="search-form-container">
+            <form class="search-form">
+              <div class="search-form-header">
+                <div class="search-form-tabs">
+                  <span class="search-form-tab-sale">For Sale</span>
+                  <span class="search-form-tab-rent">For Rent</span>
+                </div>
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9d3b9cc71e9338f5a7f5dd921109386b15beffcdd694fb0e016cacaaee83d43a?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="" class="search-form-tab-indicator" loading="lazy" />
+              </div>
+              <div class="search-form-fields">
+                <label for="location" class="visually-hidden">New York, San Francisco, etc</label>
+                <input type="text" id="location" placeholder="New York, San Francisco, etc" class="search-form-location" />
+                <div class="search-form-property-type">
+                  <label for="propertyType" class="search-form-property-type-label">Select Property Type</label>
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/06baaeb140c7abbf649d12d1096dc155ef89b500e24cd188c150b63fe4897b69?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="" class="search-form-property-type-icon" loading="lazy" />
+                  <select id="propertyType" class="visually-hidden">
+                    <option>Select Property Type</option>
+                  </select>
+                </div>
+                <div class="search-form-rooms">
+                  <label for="rooms" class="search-form-rooms-label">Select Rooms</label>
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/06baaeb140c7abbf649d12d1096dc155ef89b500e24cd188c150b63fe4897b69?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="" class="search-form-rooms-icon" loading="lazy" />
+                  <select id="rooms" class="visually-hidden">
+                    <option>Select Rooms</option>
+                  </select>
+                </div>
+                <div class="search-form-advanced">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e4b8657b288c8b50a57e904e1b737f478dc442523c7ce10c3a793ba487e8592?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="" class="search-form-advanced-icon" loading="lazy" />
+                  <span class="search-form-advanced-label">Advance Search</span>
+                </div>
+                <button type="submit" class="search-form-submit">
+                  <div class="search-form-submit-content">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3b08d3c1c79ce9002470e2603f1d016dd8a0312ac6a923dbf6f260a19b1b152c?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="" class="search-form-submit-icon" loading="lazy" />
+                    <span class="search-form-submit-label">Search</span>
+                  </div>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <section class="happy-customers-container">
+  <div class="happy-customers-wrapper">
+    <div class="happy-customers-column">
+      <div class="happy-customers-card">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e9c6b27869e41df323d68a0d772fcc4ab4a02287e096d3e37a471b1d626093b3?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Happy customers icon" class="happy-customers-image" />
+        <p class="happy-customers-text">
+          72k+ Happy <br />
+          Customers
+        </p>
+      </div>
+    </div>
+    <div class="new-listings-column">
+      <div class="new-listings-card">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/47a96c0ca4c7f10fa9cc66f18f49335bf794904ad33aab69edee1b38fa5744de?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="New listings icon" class="new-listings-image" />
+        <p class="new-listings-text">
+          200+ New <br />
+          Listings Everyday!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="trusted-by-section">
+    <div class="trusted-by-container">
+      <div class="logo-column">
+        <div class="logo-wrapper"></div>
+      </div>
+      <div class="text-column">
+        <p class="trusted-by-text">Trusted by 100+ Companies across the globe!</p>
+      </div>
+    </div>
+  </section>
+  <section class="logo-container">
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/272101f18c7db6361035ae4502ce01382d96f8e7163686eeef237bbc1c71aa6b?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Logo 1" class="logo-image" loading="lazy" />
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/324df57b87de9a8dc9c76130f09e5f65f8b8c419b8d8770a8cf9a059c8764740?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Logo 2" class="logo-image-tall" loading="lazy" />
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9319d1e51319c17090964a6c0730c0aba598614d6ba939c7d093ef75af224bce?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Logo 3" class="logo-image-tall" loading="lazy" />
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9241c4a5c92119426399a177b241769fd622672745e74a560f60d36a214c50fc?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Logo 4" class="logo-image-tall" loading="lazy" />
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8fdfdaa6d557f7e772a2d61d9969505b3e8f05f449c206e79a8306a83234c602?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Logo 5" class="logo-image-wide" loading="lazy" />
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca49a8e081d58c07dcced952ed5eb9aacbba1b3140999b0be807b1e48cdcfb07?apiKey=7decd3026c674255859fa54c2717b7f4&" alt="Logo 6" class="logo-image-small" loading="lazy" />
+  </section>
+  <div class="div-try">WHO ARE WE</div>
+  <div class="div">
+    <div class="div-2">
+      <div class="column">
+        <div class="div-3">
+          <div class="div-4">
+            Assisting individuals in locating the appropriate real estate.
+          </div>
+          <div class="div-5">
+            Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
+            dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac
+            malesuada leo volutpat.
+          </div>
+          <div class="div-6">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/d934bb1a8eec929d02fa339ecf3a7f64ae175722463ca112017f626d15d0adf8?apiKey=7decd3026c674255859fa54c2717b7f4&"
+              class="img"
+            />
+            <div class="div-7">
+              <div class="div-8">Donec porttitor euismod</div>
+              <div class="div-9">
+                Nullam a lacinia ipsum, nec dignissim purus. Nulla
+              </div>
+            </div>
+          </div>
+          <div class="div-10">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/5daa0559c96b6ee5832254b10271a7246b33e040ad7d1c51e6e285eb3c78e46a?apiKey=7decd3026c674255859fa54c2717b7f4&"
+              class="img-2"
+            />
+            <div class="div-11">
+              <div class="div-12">Donec porttitor euismod</div>
+              <div class="div-13">
+                Nullam a lacinia ipsum, nec dignissim purus. Nulla
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column-2">
+        <div class="div-14">
+          <div class="div-15">
+            <div class="column">
+              <img
+                loading="lazy"
+                srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/88814556c40720dd61f2a3cea53ca2a499a815fee578861926cf73cd5c7012f8?apiKey=7decd3026c674255859fa54c2717b7f4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/88814556c40720dd61f2a3cea53ca2a499a815fee578861926cf73cd5c7012f8?apiKey=7decd3026c674255859fa54c2717b7f4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/88814556c40720dd61f2a3cea53ca2a499a815fee578861926cf73cd5c7012f8?apiKey=7decd3026c674255859fa54c2717b7f4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/88814556c40720dd61f2a3cea53ca2a499a815fee578861926cf73cd5c7012f8?apiKey=7decd3026c674255859fa54c2717b7f4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/88814556c40720dd61f2a3cea53ca2a499a815fee578861926cf73cd5c7012f8?apiKey=7decd3026c674255859fa54c2717b7f4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/88814556c40720dd61f2a3cea53ca2a499a815fee578861926cf73cd5c7012f8?apiKey=7decd3026c674255859fa54c2717b7f4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/88814556c40720dd61f2a3cea53ca2a499a815fee578861926cf73cd5c7012f8?apiKey=7decd3026c674255859fa54c2717b7f4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/88814556c40720dd61f2a3cea53ca2a499a815fee578861926cf73cd5c7012f8?apiKey=7decd3026c674255859fa54c2717b7f4&"
+                class="img-3"
+              />
+            </div>
+            <div class="column-3">
+              <div class="div-16">
+                <img
+                  loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/baaaf24cc850d1d8350293c4b10244fd26ff22c01de0d07877352a8d97c045d9?apiKey=7decd3026c674255859fa54c2717b7f4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/baaaf24cc850d1d8350293c4b10244fd26ff22c01de0d07877352a8d97c045d9?apiKey=7decd3026c674255859fa54c2717b7f4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/baaaf24cc850d1d8350293c4b10244fd26ff22c01de0d07877352a8d97c045d9?apiKey=7decd3026c674255859fa54c2717b7f4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/baaaf24cc850d1d8350293c4b10244fd26ff22c01de0d07877352a8d97c045d9?apiKey=7decd3026c674255859fa54c2717b7f4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/baaaf24cc850d1d8350293c4b10244fd26ff22c01de0d07877352a8d97c045d9?apiKey=7decd3026c674255859fa54c2717b7f4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/baaaf24cc850d1d8350293c4b10244fd26ff22c01de0d07877352a8d97c045d9?apiKey=7decd3026c674255859fa54c2717b7f4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/baaaf24cc850d1d8350293c4b10244fd26ff22c01de0d07877352a8d97c045d9?apiKey=7decd3026c674255859fa54c2717b7f4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/baaaf24cc850d1d8350293c4b10244fd26ff22c01de0d07877352a8d97c045d9?apiKey=7decd3026c674255859fa54c2717b7f4&"
+                  class="img-4"
+                />
+                <img
+                  loading="lazy"
+                  srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/cc50114b-0cd3-4fda-a2ed-34b4af873736?apiKey=7decd3026c674255859fa54c2717b7f4&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc50114b-0cd3-4fda-a2ed-34b4af873736?apiKey=7decd3026c674255859fa54c2717b7f4&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc50114b-0cd3-4fda-a2ed-34b4af873736?apiKey=7decd3026c674255859fa54c2717b7f4&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc50114b-0cd3-4fda-a2ed-34b4af873736?apiKey=7decd3026c674255859fa54c2717b7f4&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc50114b-0cd3-4fda-a2ed-34b4af873736?apiKey=7decd3026c674255859fa54c2717b7f4&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc50114b-0cd3-4fda-a2ed-34b4af873736?apiKey=7decd3026c674255859fa54c2717b7f4&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc50114b-0cd3-4fda-a2ed-34b4af873736?apiKey=7decd3026c674255859fa54c2717b7f4&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc50114b-0cd3-4fda-a2ed-34b4af873736?apiKey=7decd3026c674255859fa54c2717b7f4&"
+                  class="img-5"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="try-two">CHECKOUT OUR NEW</div>
+  <div class="new">
+    <div class="new-1">Latest Listed Properties</div>
+    <div class="new-2">
+      <div class="new-3">All</div>
+      <div class="new-4">Sell</div>
+      <div class="new-5">Rent</div>
+    </div>
+  </div>
+  <div class="paragraph">
+    Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim
+    purus.
+  </div>
+  <div class="container">
+    <div class="container-md">
+        <h6 class="price">$ 5,970</h6>
+        <h6 class="title">Tranquil Haven in the Woods</h6>
+        <p class="address">103 Wright CourtBurien, WA 98168</p>
+        <div class="bed-bath-container">
+            <div class="bed-bath-item">
+                <img src="./images/�陁� icon _bed_.png" alt="">
+                <p class="bed-bath-text">4 Beds</p>
+            </div>
+            <div class="bed-bath-item">
+                <img src="./images/�陁� icon _bathroom_.png" alt="">
+                <p class="bed-bath-text">3 Bath</p>
+            </div>
+        </div>
+    </div>
+    <div class="article-container">
+      <article class="property-card">
+        <div class="property-image-container">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ed14d2f136320dda2a4fd6194af37945c819a930eb7acccc4f2c0092133d4e21?apiKey=df256b384912472ea594d5b00208c737&" alt="Property image" class="property-image" />
+          <div class="popular-badge">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d7ac8b26d19dd8c201eeafebddd1c9885f5d2d78639f0fdcd8b80ee79c90983a?apiKey=df256b384912472ea594d5b00208c737&" alt="Popular icon" class="popular-icon" />
+            <span class="popular-text">Popular</span>
+          </div>
+        </div>
+        <div class="property-price">$ 5,970</div>
+        <h2 class="property-name">Tranquil Haven in the Woods</h2>
+        <address class="property-address">
+          103 Wright Court<br />
+          Burien, WA 98168
+        </address>
+        <div class="property-details">
+          <div class="beds-container">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e8671817e78999ed9067d1735380a63eeda89a0654da5c7939baaa0ac80c408?apiKey=df256b384912472ea594d5b00208c737&" alt="Beds icon" class="beds-icon" />
+            <span class="beds-count">4 Beds</span>
+          </div>
+          <div class="baths-container">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c9e229e8224063f4163b09246e3a74249278d45bcf1e3a8d8b1f0cf338d19aec?apiKey=df256b384912472ea594d5b00208c737&" alt="Baths icon" class="baths-icon" />
+            <span class="baths-count">3 Bath</span>
+          </div>
+        </div>
+      </article>
+      <article class="property-card">
+        <div class="property-image-container">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e48ac2264b3a428ac3b04484fb4f9c8173611510b15b5553785b098661ecdcb8?apiKey=df256b384912472ea594d5b00208c737&" alt="Exterior view of the property" class="property-image" />
+          <div class="new-listing-badge">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6b56420f255d9b00d3efe54dc08dfd70cfa9bf2c98a72fe1a158e193ac0c3302?apiKey=df256b384912472ea594d5b00208c737&" alt="" class="new-listing-icon" />
+            <span class="new-listing-text">New Listing</span>
+          </div>
+        </div>
+        <div class="property-price">$ 1,970</div>
+        <h2 class="property-title">Serene Retreat by the Lake</h2>
+        <address class="property-address">1964 Jehovah Drive, VA 22408</address>
+        <div class="property-details">
+          <div class="beds-detail">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e8671817e78999ed9067d1735380a63eeda89a0654da5c7939baaa0ac80c408?apiKey=df256b384912472ea594d5b00208c737&" alt="" class="beds-icon" />
+            <span class="beds-count">3 Beds</span>
+          </div>
+          <div class="baths-detail">  
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c9e229e8224063f4163b09246e3a74249278d45bcf1e3a8d8b1f0cf338d19aec?apiKey=df256b384912472ea594d5b00208c737&" alt="" class="baths-icon" />
+            <span class="baths-count">2 Bath</span>
+          </div>
+        </div>
+      </article>
+      <article class="property-card">
+        <div class="property-image-container">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b790653151034ddf4cbc4983138399c215961a29da1afec79a2395b5ad3ef843?apiKey=df256b384912472ea594d5b00208c737&" alt="Exterior view of the charming cottage property" class="property-image" />
+          <div class="discounted-price-badge">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7b163434ab8f5db60a5db1471980cea608f16049738480083d8550a1103b4a9?apiKey=df256b384912472ea594d5b00208c737&" alt="" class="discounted-price-icon" />
+            <span class="discounted-price-text">Discounted Price</span>
+          </div>
+        </div>
+        <div class="property-price">$ 3,450</div>
+        <h2 class="property-title">Charming Cottage in the Meadow</h2>
+        <address class="property-address">1508 Centennial Farm RoadHarlan, 51537</address>
+        <div class="property-details">
+          <div class="property-beds">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e8671817e78999ed9067d1735380a63eeda89a0654da5c7939baaa0ac80c408?apiKey=df256b384912472ea594d5b00208c737&" alt="Bed icon" class="bed-icon" />
+            <span class="bed-count">4 Beds</span>
+          </div>
+          <div class="property-baths">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c9e229e8224063f4163b09246e3a74249278d45bcf1e3a8d8b1f0cf338d19aec?apiKey=df256b384912472ea594d5b00208c737&" alt="Bath icon" class="bath-icon" />
+            <span class="bath-count">4 Bath</span>
+          </div>
+        </div>
+      </article>
+      <article class="property-card">
+        <div class="property-image-container">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3a7443809c935eceede1713743cc2a1a7c6245bea4c60c901700035a6878f6d5?apiKey=df256b384912472ea594d5b00208c737&" alt="Exterior view of the grand estate on the hilltop" class="property-image" />
+          <div class="popular-badge">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d7ac8b26d19dd8c201eeafebddd1c9885f5d2d78639f0fdcd8b80ee79c90983a?apiKey=df256b384912472ea594d5b00208c737&" alt="" class="popular-icon" />
+            <span class="popular-text">Popular</span>
+          </div>
+        </div>
+        <div class="property-price">$ 2,389</div>
+        <h2 class="property-title">Grand Estate on the Hilltop</h2>
+        <address class="property-address">
+          103 Wright Court<br />
+          Burien, WA 98168
+        </address>
+        <div class="property-details">
+          <div class="property-beds">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6e8671817e78999ed9067d1735380a63eeda89a0654da5c7939baaa0ac80c408?apiKey=df256b384912472ea594d5b00208c737&" alt="" class="bed-icon" />
+            <span class="bed-count">4 Beds</span>
+          </div>
+          <div class="property-baths">
+            <div class="bath-icon" aria-hidden="true"></div>
+            <span class="bath-count">3 Bath</span>
+          </div>
+        </div>
+      </article>
+      <article class="property-card">
+        <div class="property-image-container">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1df70c2cd84da80fe60df806b10cdd72c42475cd115cf16507329235b6b342c9?apiKey=df256b384912472ea594d5b00208c737&" alt="Property Image" class="property-image" />
+          <div class="property-tag">
+            <div class="property-tag-icon" aria-hidden="true"></div>
+            <span class="property-tag-label">Popular</span>
+          </div>
+        </div>
+        <div class="property-price">$ 2,389</div>
+        <h2 class="property-name">Serenity House</h2>
+        <address class="property-address">103 Wright CourtBurien, WA 98168</address>
+        <div class="property-details">
+          <div class="property-beds">
+            <div class="bed-icon" aria-hidden="true"></div>
+            <span class="bed-count">4 Beds</span>
+          </div>
+          <div class="property-baths">
+            <div class="bath-icon" aria-hidden="true"></div>
+            <span class="bath-count">3 Bath</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+<section class="services-section">
+  <div class="services-container">
+    <h2 class="services-title">OUR SERVICES</h2>
+    <h3 class="services-subtitle">Donec porttitor euismod dignissim</h3>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-content">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0e661c69-e623-4c66-a74f-10fe7f46e395?apiKey=df256b384912472ea594d5b00208c737&" alt="Buy a New Home icon" class="service-icon" />
+          <h4 class="service-name">Buy a New Home</h4>
+          <p class="service-description">
+            Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus.
+          </p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-content">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/17ff3d3c-a55a-422c-b98c-39375a5637af?apiKey=df256b384912472ea594d5b00208c737&" alt="Sell a House icon" class="service-icon" />
+          <h4 class="service-name">Sell a House</h4>
+          <p class="service-description">
+            Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus.
+          </p>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-content">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3f043063-f780-4477-b9d3-7e5b2787eece?apiKey=df256b384912472ea594d5b00208c737&" alt="Rent a House icon" class="service-icon" />
+          <h4 class="service-name">Rent a House</h4>
+          <p class="service-description">
+            Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="main-container">
+  <div class="circle-decoration"></div>
+  <div class="section-subtitle">AREAS ACROSS THE TOWN</div>
+  <div class="section-title">Neighborhood Properties</div>
+  <div class="property-grid">
+    <div class="property-row">
+      <div class="property-column">
+        <div class="property-card">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e38045ab67d1f697cd92b247a8aa913a1bed76ade1c5a406a8747fdfffdcf0a6?apiKey=df256b384912472ea594d5b00208c737&" class="property-image" />
+          <div class="property-count">216</div>
+          <div class="property-location">New York City, NY</div>
+        </div>
+      </div>
+      <div class="property-column-2">
+        <div class="property-card-2">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/379faacae28c848d66a53259931501a457d7105101399181bc1c33002e5441f3?apiKey=df256b384912472ea594d5b00208c737&" class="property-image" />
+          <div class="property-count-2">141</div>
+          <div class="property-location-2">Houston, TX</div>
+        </div>
+      </div>
+      <div class="property-column-3">
+        <div class="property-card-3">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6bc98aadf890a1ec7cfc7a520e00e5c70e5a3fc22c6d0b448bc4b9bce2061554?apiKey=df256b384912472ea594d5b00208c737&" class="property-image" />
+          <div class="property-count-3">212</div>
+          <div class="property-location-3">San Diego, CA</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="property-grid-2">
+    <div class="property-row-2">
+      <div class="property-column-4">
+        <div class="property-card-4">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e2433282ece3a2ac93e0550380d164be191d607e91a6282dd6ede420a27a2bc?apiKey=df256b384912472ea594d5b00208c737&" class="property-image" />
+          <div class="property-count-4">183</div>
+          <div class="property-location-4">Philadelphia, PA</div>
+        </div>
+      </div>
+      <div class="property-column-5">
+        <div class="property-card-5">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/08acc5a91d2e9af38f1af6a6a4b117bbfb74c23f9774303f08c00e9d7e915f1d?apiKey=df256b384912472ea594d5b00208c737&" class="property-image" />
+          <div class="property-count-5">112</div>
+          <div class="property-location-5">San Francisco, CA</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="circle-decoration-2"></div>
+  <div class="team-section-subtitle">Introduce yourself to</div>
+  <div class="team-section-title">Our Team of Experts</div>
+  <div class="team-grid">
+    <div class="team-row">
+      <div class="team-column">
+        <div class="team-member">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/5f822f1a18c9aadf204359ad5ed5be0534e41312a17cfc310f3aa9240883d20d?apiKey=df256b384912472ea594d5b00208c737&" class="team-member-image" />
+          <div class="team-member-name">Brendon M</div>
+          <div class="team-member-title">CEO & Founder</div>
+        </div>
+      </div>
+      <div class="team-column-2">
+        <div class="team-member-2">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e1f69f4a68e6190c3373be345beb2c8a063b76de2996a70c9b46f5f4a5306595?apiKey=df256b384912472ea594d5b00208c737&" class="team-member-image-2" />
+          <div class="team-member-name">Jodi J. Appleby</div>
+          <div class="team-member-title">Real Estate Developer</div>
+        </div>
+      </div>
+      <div class="team-column">
+        <div class="team-member">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f0ff466bc0b30bfe7159dc1d2bd124a7e8a673157fd60705f2d27c6d36a4c699?apiKey=df256b384912472ea594d5b00208c737&" class="team-member-image" />
+          <div class="team-member-name">Justin S. Meza</div>
+          <div class="team-member-title">Listing Agent</div>
+        </div>
+      </div>
+      <div class="team-column-2">
+        <div class="team-member-2">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7fbeca5fadd49a1fb55cef378fcbf7317238ef16ac697ca2e230de812c6c22ee?apiKey=df256b384912472ea594d5b00208c737&" class="team-member-image-2" />
+          <div class="team-member-name">Susan T. Smith</div>
+          <div class="team-member-title">Buyer's Agent</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="blog-section">
+  <div class="blog-container">
+    <div class="blog-grid">
+      <div class="blog-column">
+        <article class="blog-post">
+          <div class="blog-image-wrapper">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/31cc239d18244c2b29d57d3236088e11ce917e8fe3282666d0ddf1eb298cfaf8?apiKey=df256b384912472ea594d5b00208c737&" alt="Top 10 Home Buying Mistakes to Avoid" class="blog-image" />
+            <div class="blog-date">
+              <div class="blog-day">28</div>
+              <div class="blog-month">Tue</div>
+            </div>
+          </div>
+          <h2 class="blog-title">Top 10 Home Buying Mistakes to Avoid</h2>
+          <p class="blog-excerpt">
+            Etiam eget elementum elit. Aenean dignissim dapibus vestibulum
+          </p>
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/70ed8ede7b31db0438a2cfc4aab2ca6fb62a2143def06a634dd2b94bb3cf1408?apiKey=df256b384912472ea594d5b00208c737&" alt="" class="blog-arrow" />
+        </article>
+      </div>
+      <div class="blog-column">
+        <div class="blog-featured-post">
+          <h3 class="blog-heading">WHAT'S TRENDING</h3>
+          <h2 class="blog-subheading">Latest Blogs & Posts</h2>
+          <article>
+            <div class="blog-image-wrapper">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f22be2747b88e5bf79bea4835bef45e36579fd36530c8c6f1da6425feed53a5b?apiKey=df256b384912472ea594d5b00208c737&" alt="How to Stage Your Home for a Quick Sale" class="blog-image" />
+              <div class="blog-date">
+                <div class="blog-day">08</div>
+                <div class="blog-month">Mon</div>
+              </div>
+            </div>
+            <h2 class="blog-title">How to Stage Your Home for a Quick Sale</h2>
+            <p class="blog-excerpt">
+              Nullam odio lacus, dictum quis pretium congue, vehicula venenatis nunc.
+            </p>
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/70ed8ede7b31db0438a2cfc4aab2ca6fb62a2143def06a634dd2b94bb3cf1408?apiKey=df256b384912472ea594d5b00208c737&" alt="" class="blog-arrow" />
+          </article>
+        </div>
+      </div>
+      <div class="blog-column">
+        <article class="blog-post">
+          <div class="blog-image-wrapper">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/276377786d69d34b2de86ad29932a0e137d6b503a9877b75fd8553a51f888229?apiKey=df256b384912472ea594d5b00208c737&" alt="5 Tips for First-Time Home Sellers" class="blog-image" />
+            <div class="blog-date">
+              <div class="blog-day">26</div>
+              <div class="blog-month">Wed</div>
+            </div>
+          </div>
+          <h2 class="blog-title">5 Tips for First-Time Home Sellers</h2>
+          <p class="blog-excerpt">
+            In hac habitasse platea dictumst. Phasellus vel velit vel augue maximus.
+          </p>
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/70ed8ede7b31db0438a2cfc4aab2ca6fb62a2143def06a634dd2b94bb3cf1408?apiKey=df256b384912472ea594d5b00208c737&" alt="" class="blog-arrow" />
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="testimonials">
+  <div class="testimonials-container">
+    <div class="testimonials-content">
+      <div class="testimonials-column">
+        <div class="testimonials-text">
+          <h3 class="testimonials-subtitle">TESTIMONIALS</h3>
+          <h2 class="testimonials-title">Look What Our Customers Say!</h2>
+          <p class="testimonials-description">
+            Fusce venenatis tellus a felis scelerisque, non pulvinar est pellentesque.
+          </p>
+          <div class="testimonials-logos">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c4a78661a417788e09706ca8e4d411ca81068f1997f4ccbf5f9f0b8b81de518?apiKey=df256b384912472ea594d5b00208c737&" alt="Company logo" class="testimonials-logo" />
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c6033dce0249dca724a3a71610e423668fb19b030d4e702ccb7e1cae0360ffdc?apiKey=df256b384912472ea594d5b00208c737&" alt="Company logo" class="testimonials-logo" />
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card-column">
+        <div class="testimonial-card">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/80f468f9db308c9b0ffd156c9cb486486d2f8242b9a6d6183b59aa64787d47af?apiKey=df256b384912472ea594d5b00208c737&" alt="5 star rating" class="testimonial-card-stars" />
+          <p class="testimonial-card-text">
+            I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!
+          </p>
+          <div class="testimonial-card-divider"></div>
+          <div class="testimonial-card-footer">
+            <div class="testimonial-card-author">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e2924d365dd074fcc21d7ed3b158677e5ae0cbdf82b52d016fccce71bc3a3cb?apiKey=df256b384912472ea594d5b00208c737&" alt="Barbara D. Smith" class="testimonial-card-avatar" />
+              <span class="testimonial-card-name">Barbara D. Smith</span>
+            </div>
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/65809bb186ce38ac78b00e0a5dc7956facb029419c68aacd58e1619316e4a30e?apiKey=df256b384912472ea594d5b00208c737&" alt="Company logo" class="testimonial-card-company" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cta-section">
+    <div class="cta-content">
+      <div class="cta-image-column">
+        <div class="cta-image-wrapper">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a84937af987268a9c0ab685070c5e486344d144723095af69a2b8cff2888dfcf?apiKey=df256b384912472ea594d5b00208c737&" alt="Real estate agent" class="cta-image" />
+        </div>
+      </div>
+      <div class="cta-text-column">
+        <div class="cta-text-wrapper">
+          <div class="cta-text-content">
+            <div class="cta-text">
+              <h2 class="cta-title">Become a Agent.</h2>
+              <p class="cta-description">
+                Fusce venenatis tellus a felis scelerisque.
+                <span style="color: rgba(255, 255, 255, 1)">
+                  venenatis tellus a felis scelerisque.
+                </span>
+              </p>
+            </div>
+            <div class="cta-button-column">
+              <div class="cta-button-wrapper">
+                <button class="cta-button">Register Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="footer-stup">
+  <footer class="footer">
+    <div class="company-info">
+      <div class="company-name">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a8a050a8-6bde-4481-96e4-61f26696218a?apiKey=df256b384912472ea594d5b00208c737&" alt="Rezilla company logo" class="company-logo" />
+        <h2 class="company-title">Rezilla</h2>
+      </div>
+      <address class="company-address">
+        2728 Hickory Street<br />
+        Salt Lake City, UT 84104
+      </address>
+      <div class="company-phone">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/278017ac73adb8a012bae35035c1f1045f60778619fdbc789915376e6dad958d?apiKey=df256b384912472ea594d5b00208c737&" alt="Phone icon" class="phone-icon" />
+        <a href="tel:+12062142298" class="phone-number">+1 206-214-2298</a>
+      </div>
+      <div class="company-email">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7eaba8b173bc4d7f99e71c74ca2d22e196e387934ea17f3582def0878571a03e?apiKey=df256b384912472ea594d5b00208c737&" alt="Email icon" class="email-icon" />
+        <a href="mailto:support@rezilla.com" class="email-address">support@rezilla.com</a>
+      </div>
+    </div>
+    
+    <nav class="quick-links">
+      <h3 class="quick-links-title">Quick Links</h3>
+      <ul class="quick-links-list">
+        <li>Home</li>
+        <li>About</li>
+        <li>Listings</li>
+        <li>Services</li>
+        <li>Blogs</li>
+        <li>Become a Agent</li>
+      </ul>
+    </nav>
+  
+    <nav class="discovery">
+      <h3 class="discovery-title">Discovery</h3>
+      <ul class="discovery-list">
+        <li>Canada</li>
+        <li>United States</li>
+        <li>Germany</li>
+        <li>Africa</li>
+        <li>India</li>
+      </ul>
+    </nav>
+  
+    <div class="newsletter">
+      <h3 class="newsletter-title">Subscribe to our Newsletter!</h3>
+      <form class="newsletter-form">
+        <label for="email-input" class="visually-hidden">Email Address</label>
+        <input type="email" id="email-input" placeholder="Email Address" class="newsletter-input" aria-label="Enter your email address" />
+        <button type="submit" class="newsletter-button">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d52e766e-8c89-426f-b4ff-f7859886b800?apiKey=df256b384912472ea594d5b00208c737&" alt="Submit newsletter form" />
+        </button>
+      </form>
+      <p class="social-media-text">Follow Us on</p>
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e7cd397d776f92ed3583d148f8cbf83a29669e95c1dd4c8a8fc971e24d09561a?apiKey=df256b384912472ea594d5b00208c737&" alt="Social media icons" class="social-media-icons" />
+    </div>
+  </footer>
+</div>
+<footer class="footer">
+  <div class="footer-content">
+    <div class="copyright">© Rezilla – All rights reserved</div>
+    <nav class="footer-links">
+      <a href="#" class="terms-link">Terms and Conditions</a>
+      <a href="#" class="privacy-link">Privacy Policy</a>
+      <a href="#" class="disclaimer-link">Disclaimer</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
